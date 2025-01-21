@@ -1,6 +1,7 @@
 from typing import List, Optional, Dict, Any
 from fastapi import FastAPI, HTTPException, Security, Depends
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
+from fastapi.middleware.cors import CORSMiddleware
 from supabase import create_client, Client
 from pydantic import BaseModel
 from dotenv import load_dotenv
@@ -9,12 +10,14 @@ import httpx
 import sys
 import os
 
-from pydantic_ai.messages import ModelTextResponse, UserPrompt
+from pydantic_ai.messages import (
+    ModelRequest,
+    ModelResponse,
+    UserPromptPart,
+    TextPart
+)
 
-# Add parent directory to Python path
-sys.path.append(str(Path(__file__).parent.parent))
-
-from pydantic_ai_web_researcher.web_search_agent import web_search_agent, Deps
+from github_agent import github_agent, GitHubDeps
 
 # Load environment variables
 load_dotenv()
@@ -22,6 +25,14 @@ load_dotenv()
 # Initialize FastAPI app
 app = FastAPI()
 security = HTTPBearer()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Supabase setup
 supabase: Client = create_client(
@@ -87,8 +98,8 @@ async def store_message(session_id: str, message_type: str, content: str, data: 
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to store message: {str(e)}")
 
-@app.post("/api/pydantic-search-agent", response_model=AgentResponse)
-async def web_search(
+@app.post("/api/pydantic-github-agent", response_model=AgentResponse)
+async def github_agent_endpoint(
     request: AgentRequest,
     authenticated: bool = Depends(verify_token)
 ):
@@ -102,7 +113,7 @@ async def web_search(
             msg_data = msg["message"]
             msg_type = msg_data["type"]
             msg_content = msg_data["content"]
-            msg = UserPrompt(content=msg_content) if msg_type == "human" else ModelTextResponse(content=msg_content)
+            msg = ModelRequest(parts=[UserPromptPart(content=msg_content)]) if msg_type == "human" else ModelResponse(parts=[TextPart(content=msg_content)])
             messages.append(msg)
 
         # Store user's query
@@ -114,15 +125,13 @@ async def web_search(
 
         # Initialize agent dependencies
         async with httpx.AsyncClient() as client:
-            deps = Deps(
+            deps = GitHubDeps(
                 client=client,
-                supabase=supabase,
-                session_id=request.session_id,
-                brave_api_key=os.getenv("BRAVE_API_KEY")
+                github_token=os.getenv("GITHUB_TOKEN")
             )
 
             # Run the agent with conversation history
-            result = await web_search_agent.run(
+            result = await github_agent.run(
                 request.query,
                 message_history=messages,
                 deps=deps

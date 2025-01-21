@@ -20,8 +20,8 @@ load_dotenv()
 llm = os.getenv('LLM_MODEL', 'gpt-4o')
 
 client = AsyncOpenAI(
-    base_url = 'http://localhost:11434/v1',
-    api_key='ollama'
+    # base_url = 'http://localhost:11434/v1',
+    # api_key='ollama'
 )
 
 model = OpenAIModel(llm) if llm.lower().startswith("gpt") else OpenAIModel(llm, openai_client=client)
@@ -31,7 +31,7 @@ logfire.configure(send_to_logfire='if-token-present')
 
 
 @dataclass
-class Deps:
+class WebResearcherDeps:
     client: AsyncClient
     supabase: Client
     session_id: str
@@ -41,14 +41,14 @@ class Deps:
 web_search_agent = Agent(
     model,
     system_prompt=f'You are an expert at researching the web to answer user questions. The current date is: {datetime.now().strftime("%Y-%m-%d")}',
-    deps_type=Deps,
+    deps_type=WebResearcherDeps,
     retries=2
 )
 
 
 @web_search_agent.tool
 async def search_web(
-    ctx: RunContext[Deps], web_query: str
+    ctx: RunContext[WebResearcherDeps], web_query: str
 ) -> str:
     """Search the web given a query defined to answer the user's question.
 
@@ -107,7 +107,7 @@ async def search_web(
 async def main():
     async with AsyncClient() as client:
         brave_api_key = os.getenv('BRAVE_API_KEY', None)
-        deps = Deps(client=client, brave_api_key=brave_api_key)
+        deps = WebResearcherDeps(client=client, brave_api_key=brave_api_key)
 
         result = await web_search_agent.run(
             'Give me some articles talking about the new release of React 19.', deps=deps

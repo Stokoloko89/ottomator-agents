@@ -1,6 +1,7 @@
 from typing import List, Optional, Dict, Any
 from fastapi import FastAPI, HTTPException, Security, Depends
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
+from fastapi.middleware.cors import CORSMiddleware
 from supabase import create_client, Client
 from pydantic import BaseModel
 from dotenv import load_dotenv
@@ -16,10 +17,7 @@ from pydantic_ai.messages import (
     TextPart
 )
 
-# Add parent directory to Python path
-sys.path.append(str(Path(__file__).parent.parent))
-
-from pydantic_ai_github_agent.github_agent import github_agent, GitHubDeps
+from web_search_agent import web_search_agent, WebResearcherDeps
 
 # Load environment variables
 load_dotenv()
@@ -27,6 +25,14 @@ load_dotenv()
 # Initialize FastAPI app
 app = FastAPI()
 security = HTTPBearer()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Supabase setup
 supabase: Client = create_client(
@@ -92,8 +98,8 @@ async def store_message(session_id: str, message_type: str, content: str, data: 
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to store message: {str(e)}")
 
-@app.post("/api/pydantic-github-agent", response_model=AgentResponse)
-async def github_agent_endpoint(
+@app.post("/api/pydantic-search-agent", response_model=AgentResponse)
+async def web_search(
     request: AgentRequest,
     authenticated: bool = Depends(verify_token)
 ):
@@ -119,13 +125,15 @@ async def github_agent_endpoint(
 
         # Initialize agent dependencies
         async with httpx.AsyncClient() as client:
-            deps = GitHubDeps(
+            deps = WebResearcherDeps(
                 client=client,
-                github_token=os.getenv("GITHUB_TOKEN")
+                supabase=supabase,
+                session_id=request.session_id,
+                brave_api_key=os.getenv("BRAVE_API_KEY")
             )
 
             # Run the agent with conversation history
-            result = await github_agent.run(
+            result = await web_search_agent.run(
                 request.query,
                 message_history=messages,
                 deps=deps

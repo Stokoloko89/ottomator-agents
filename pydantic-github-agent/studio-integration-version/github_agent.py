@@ -7,6 +7,7 @@ from typing import Any, List, Dict
 import tempfile
 from pathlib import Path
 from dotenv import load_dotenv
+import logfire
 import shutil
 import time
 import re
@@ -21,10 +22,12 @@ load_dotenv()
 
 llm = os.getenv('LLM_MODEL', 'deepseek/deepseek-chat')
 model = OpenAIModel(
-    llm,
-    base_url = 'https://openrouter.ai/api/v1',
-    api_key=os.getenv('OPEN_ROUTER_API_KEY')
+    llm#,
+    # base_url = 'https://openrouter.ai/api/v1',
+    # api_key=os.getenv('OPEN_ROUTER_API_KEY')
 )
+
+logfire.configure(send_to_logfire='if-token-present')
 
 @dataclass
 class GitHubDeps:
