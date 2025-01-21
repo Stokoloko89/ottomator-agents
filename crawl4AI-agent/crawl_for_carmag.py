@@ -17,7 +17,7 @@ from supabase import create_client, Client
 load_dotenv()
 
 # Initialize OpenAI and Supabase clients
-ollama_client = AsyncOpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+ollama_client = AsyncOpenAI(api_key="ollama")
 supabase: Client = create_client(
     os.getenv("SUPABASE_URL"),
     os.getenv("SUPABASE_SERVICE_KEY")
@@ -79,7 +79,7 @@ def chunk_text(text: str, chunk_size: int = 5000) -> List[str]:
     return chunks
 
 async def get_title_and_summary(chunk: str, url: str) -> Dict[str, str]:
-    """Extract title and summary using gpt-4o-mini"""
+    """Extract title and summary using llama3.2."""
     system_prompt = """You are an AI that extracts titles and summaries from documentation chunks.
     Return a JSON object with 'title' and 'summary' keys.
     For the title: If this seems like the start of a document, extract its title. If it's a middle chunk, derive a descriptive title.
@@ -88,6 +88,7 @@ async def get_title_and_summary(chunk: str, url: str) -> Dict[str, str]:
     
     try:
         response = await ollama_client.chat.completions.create(
+            # model=os.getenv("LLM_MODEL", "llama3.2"),
             model=os.getenv("LLM_MODEL", "gpt-4o-mini"),
             messages=[
                 {"role": "system", "content": system_prompt},
@@ -100,17 +101,19 @@ async def get_title_and_summary(chunk: str, url: str) -> Dict[str, str]:
         print(f"Error getting title and summary: {e}")
         return {"title": "Error processing title", "summary": "Error processing summary"}
 
+
 async def get_embedding(text: str) -> List[float]:
     """Get embedding vector from OpenAI."""
     try:
         response = await ollama_client.embeddings.create(
-            model="text-embedding-3-small",
+            model="nomic-embed-text",
             input=text
         )
         return response.data[0].embedding
     except Exception as e:
         print(f"Error getting embedding: {e}")
         return [0] * 1536  # Return zero vector on error
+    
 
 async def process_chunk(chunk: str, chunk_number: int, url: str) -> ProcessedChunk:
     """Process a single chunk of text."""
@@ -122,7 +125,7 @@ async def process_chunk(chunk: str, chunk_number: int, url: str) -> ProcessedChu
     
     # Create metadata
     metadata = {
-        "source": "mercedes_crawler",
+        "source": "pydantic_ai_docs",
         "chunk_size": len(chunk),
         "crawled_at": datetime.now(timezone.utc).isoformat(),
         "url_path": urlparse(url).path
@@ -137,6 +140,7 @@ async def process_chunk(chunk: str, chunk_number: int, url: str) -> ProcessedChu
         metadata=metadata,
         embedding=embedding
     )
+    
 
 async def insert_chunk(chunk: ProcessedChunk):
     """Insert a processed chunk into Supabase."""
@@ -176,13 +180,14 @@ async def process_and_store_document(url: str, markdown: str):
         for chunk in processed_chunks
     ]
     await asyncio.gather(*insert_tasks)
+    
 
 async def crawl_parallel(urls: List[str], max_concurrent: int = 5):
     """Crawl multiple URLs in parallel with a concurrency limit."""
     browser_config = BrowserConfig(
         headless=True,
         verbose=False,
-        # extra_args=["--disable-gpu", "--disable-dev-shm-usage", "--no-sandbox"],
+        extra_args=["--disable-gpu", "--disable-dev-shm-usage", "--no-sandbox"],
     )
     crawl_config = CrawlerRunConfig(cache_mode=CacheMode.BYPASS)
 
@@ -211,10 +216,14 @@ async def crawl_parallel(urls: List[str], max_concurrent: int = 5):
         await asyncio.gather(*[process_url(url) for url in urls])
     finally:
         await crawler.close()
+        
+
+
+
 
 def get_pydantic_ai_docs_urls() -> List[str]:
     """Get URLs from Pydantic AI docs sitemap."""
-    sitemap_url = "https://www.mercedes-benz.co.za/passengercars/customer-service/sitemap/en_ZA"
+    sitemap_url = "https://ai.pydantic.dev/sitemap.xml"
     try:
         response = requests.get(sitemap_url)
         response.raise_for_status()

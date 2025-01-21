@@ -1,0 +1,603 @@
+<span>Ford</span>
+<div>
+
+<div>
+<header>
+<div>
+<div>
+<nav>
+<div>
+<a href="#menu-secondary-mobile" title="Secondary Mobile Menu">Secondary Menu</a>
+</div>
+</nav>
+<nav>
+<div>
+<div>
+<div><ul><li><span>+</span><a href="/news/" title="latest cars and automotive news south africa">News</a>
+<ul>
+<li><a href="/news/new-models/" title="Latest new models cars">New models</a></li>
+<li><a href="/news/industry-news/" title="Car Industry news and updates">Industry news</a></li>
+<li><a href="/speed/">Speed</a></li>
+<li><a href="/news/rumours/" title="Latest car news and rumours ">Rumours</a></li>
+<li><a href="/videos/" title="Latest cars and motoring videos">Videos</a></li>
+<li><a href="https://www.joburgetc.com/news/" title="News in Johannesburg">News in Johannesburg</a></li>
+<li><a href="https://www.capetownetc.com/">News in Cape Town</a></li>
+<li><a href="https://www.africaninsider.com/">News in Africa</a></li>
+</ul>
+</li>
+<li><span>+</span><a href="https://www.carmag.co.za/car-reviews/" title="Car Reviews South Africa">Reviews</a>
+<ul>
+<li><a href="/car-reviews/road-tests/" title="Car Road tests and reviews">Road tests</a></li>
+<li><a href="/car-reviews/driving-impressions/" title="Car Driving impressions">Driving impressions</a></li>
+<li><a href="/news/buying-used-cars/" title="Tips for buying used cars">Buying used cars</a></li>
+</ul>
+</li>
+<li><span>+</span><a href="/cars-for-sale/" title="Cars for Sale in South Africa">Buy a Car</a>
+<ul>
+<li><a href="/cars-for-sale/new/" title="New Cars For Sale">New Cars For Sale</a></li>
+<li><a href="/cars-for-sale/cheap-cars/" title="Cheap Cars For Sale">Cheap Cars For Sale</a></li>
+<li><a href="/cars-for-sale/used/" title="Used Cars For Sale">Used Cars For Sale</a></li>
+<li><a href="/cars-for-sale/demo/" title="Demo Cars For Sale">Demo Cars For Sale</a></li>
+<li><a href="https://www.carmag.co.za/bakkies-for-sale/">Bakkies For Sale</a></li>
+<li><a href="https://www.carmag.co.za/bikes-for-sale/">Bikes For Sale</a></li>
+<li><a href="https://www.carmag.co.za/elite-cars/">Elite Cars</a></li>
+<li><a href="/news/cheapest-suvs-in-south-africa/">SUVs Under R300 000</a></li>
+<li><a href="/news/electric-cars-south-africa/">Electric Cars South Africa</a></li>
+</ul>
+</li>
+<li><a href="https://www.carmag.co.za/4x4-news-leisure-wheels" title="Leisure Wheels">Leisure Wheels</a></li>
+<li><span>+</span><a href="#">Tools</a>
+<ul>
+<li><a href="https://www.carmag.co.za/car-valuation-report/">Car Valuation</a></li>
+<li><a href="https://www.carmag.co.za/car-insurance/">Car Insurance Quote</a></li>
+<li><a href="/sell-your-car">Sell your car</a></li>
+<li><a href="/compare-cars/">Compare Cars</a></li>
+<li><a href="/car-dealerships/">Locate Dealer</a></li>
+<li><a href="https://www.carmag.co.za/news/industry-news/natis-online-booking/">Natis Online Booking</a></li>
+<li><a href="https://www.carmag.co.za/car-dealer/">Car Dealer</a></li>
+</ul>
+</li>
+<li><a href="https://www.carmag.co.za/car-price-guide/">Price Guide</a></li>
+<li><a href="/marketplace-listing/">Parts &amp; Accessories</a></li>
+</ul></div>
+</div>
+<div>
+<a href="https://www.carmag.co.za" title="CAR Magazine">
+<img alt="CAR Magazine" height="40" src="/wp-content/uploads/logos/carmag-logo.svg" width="300"/>
+</a>
+</div>
+<div><ul><li><a href="/news/" title="latest cars and automotive news south africa">News</a>
+<ul>
+<li><a href="/news/new-models/" title="Latest new models cars">New models</a></li>
+<li><a href="/news/industry-news/" title="Car Industry news and updates">Industry news</a></li>
+<li><a href="/speed/">Speed</a></li>
+<li><a href="/news/rumours/" title="Latest car news and rumours ">Rumours</a></li>
+<li><a href="/videos/" title="Latest cars and motoring videos">Videos</a></li>
+<li><a href="https://www.joburgetc.com/news/" title="News in Johannesburg">News in Johannesburg</a></li>
+<li><a href="https://www.capetownetc.com/">News in Cape Town</a></li>
+<li><a href="https://www.africaninsider.com/">News in Africa</a></li>
+</ul>
+</li>
+<li><a href="https://www.carmag.co.za/car-reviews/" title="Car Reviews South Africa">Reviews</a>
+<ul>
+<li><a href="/car-reviews/road-tests/" title="Car Road tests and reviews">Road tests</a></li>
+<li><a href="/car-reviews/driving-impressions/" title="Car Driving impressions">Driving impressions</a></li>
+<li><a href="/news/buying-used-cars/" title="Tips for buying used cars">Buying used cars</a></li>
+</ul>
+</li>
+<li><a href="/cars-for-sale/" title="Cars for Sale in South Africa">Buy a Car</a>
+<ul>
+<li><a href="/cars-for-sale/new/" title="New Cars For Sale">New Cars For Sale</a></li>
+<li><a href="/cars-for-sale/cheap-cars/" title="Cheap Cars For Sale">Cheap Cars For Sale</a></li>
+<li><a href="/cars-for-sale/used/" title="Used Cars For Sale">Used Cars For Sale</a></li>
+<li><a href="/cars-for-sale/demo/" title="Demo Cars For Sale">Demo Cars For Sale</a></li>
+<li><a href="https://www.carmag.co.za/bakkies-for-sale/">Bakkies For Sale</a></li>
+<li><a href="https://www.carmag.co.za/bikes-for-sale/">Bikes For Sale</a></li>
+<li><a href="https://www.carmag.co.za/elite-cars/">Elite Cars</a></li>
+<li><a href="/news/cheapest-suvs-in-south-africa/">SUVs Under R300 000</a></li>
+<li><a href="/news/electric-cars-south-africa/">Electric Cars South Africa</a></li>
+</ul>
+</li>
+<li><a href="https://www.carmag.co.za/4x4-news-leisure-wheels" title="Leisure Wheels">Leisure Wheels</a></li>
+<li><a href="#">Tools</a>
+<ul>
+<li><a href="https://www.carmag.co.za/car-valuation-report/">Car Valuation</a></li>
+<li><a href="https://www.carmag.co.za/car-insurance/">Car Insurance Quote</a></li>
+<li><a href="/sell-your-car">Sell your car</a></li>
+<li><a href="/compare-cars/">Compare Cars</a></li>
+<li><a href="/car-dealerships/">Locate Dealer</a></li>
+<li><a href="https://www.carmag.co.za/news/industry-news/natis-online-booking/">Natis Online Booking</a></li>
+<li><a href="https://www.carmag.co.za/car-dealer/">Car Dealer</a></li>
+</ul>
+</li>
+<li><a href="https://www.carmag.co.za/car-price-guide/">Price Guide</a></li>
+<li><a href="/marketplace-listing/">Parts &amp; Accessories</a></li>
+</ul></div>
+
+</div>
+</nav>
+</div>
+</div>
+</header>
+<div>
+<nav>
+ <span><a href="https://www.carmag.co.za" title="CAR Magazine">Home</a></span>
+<span>&gt;</span> <a href="https://www.carmag.co.za/news/" title="News">News</a>
+<span>&gt;</span> <a href="https://www.carmag.co.za/news/new-models/" title="New Models">New Models</a>
+<span>&gt;</span> <span>Battle Of The Sub-R700k Double Cabs Bakkies</span>
+</nav>
+<div>
+<div>
+<h1>Battle Of The Sub-R700k Double Cabs Bakkies</h1>
+</div>
+<div>
+<div>
+<article>
+
+<div>
+<div>-</div>
+<section><button>Previous</button>
+<div><div><div>
+<img class="article-view--slider-big-img" height="360" src="https://www.carmag.co.za/wp-content/uploads/2025/01/CAR-2.jpg" width="600"/>
+<div>1/6</div>
+<div>Image: CAR</div>
+</div><div>
+<img class="article-view--slider-big-img" height="360" src="https://www.carmag.co.za/wp-content/uploads/2025/01/d-max.jpg" width="600"/>
+<div>2/6</div>
+<div>2025 Isuzu D-Max X-Rider</div>
+</div><div>
+<img class="article-view--slider-big-img" height="360" src="https://www.carmag.co.za/wp-content/uploads/2025/01/hilux.jpg" width="600"/>
+<div>3/6</div>
+<div>2025 Toyota Hilux Raider</div>
+</div><div>
+<img class="article-view--slider-big-img" height="360" src="https://www.carmag.co.za/wp-content/uploads/2025/01/ranger.jpg" width="600"/>
+<div>4/6</div>
+<div>2025 Ford Ranger XLT</div>
+</div><div>
+<img class="article-view--slider-big-img" height="360" src="https://www.carmag.co.za/wp-content/uploads/2025/01/triton.jpg" width="600"/>
+<div>5/6</div>
+<div>2025 Mitsubishi Triton GLS</div>
+</div><div>
+<img class="article-view--slider-big-img" height="360" src="https://www.carmag.co.za/wp-content/uploads/2025/01/triton-1.jpg" width="600"/>
+<div>6/6</div>
+<div>2025 Mitsubishi Triton</div>
+</div></div></div>
+<button>Next</button></section>
+<section>
+<div><div><div>
+<img class="article-view-slider-thumbnail" src="https://www.carmag.co.za/wp-content/uploads/2025/01/hilux-400x240.jpg"/>
+</div><div>
+<img class="article-view-slider-thumbnail" src="https://www.carmag.co.za/wp-content/uploads/2025/01/ranger-400x240.jpg"/>
+</div><div>
+<img class="article-view-slider-thumbnail" src="https://www.carmag.co.za/wp-content/uploads/2025/01/triton-400x240.jpg"/>
+</div><div>
+<img class="article-view-slider-thumbnail" src="https://www.carmag.co.za/wp-content/uploads/2025/01/triton-1-400x240.jpg"/>
+</div><div>
+<img class="article-view-slider-thumbnail" src="https://www.carmag.co.za/wp-content/uploads/2025/01/CAR-2-400x240.jpg"/>
+</div><div>
+<img class="article-view-slider-thumbnail" src="https://www.carmag.co.za/wp-content/uploads/2025/01/d-max-400x240.jpg"/>
+</div><div>
+<img class="article-view-slider-thumbnail" src="https://www.carmag.co.za/wp-content/uploads/2025/01/hilux-400x240.jpg"/>
+</div><div>
+<img class="article-view-slider-thumbnail" src="https://www.carmag.co.za/wp-content/uploads/2025/01/ranger-400x240.jpg"/>
+</div><div>
+<img class="article-view-slider-thumbnail" src="https://www.carmag.co.za/wp-content/uploads/2025/01/triton-400x240.jpg"/>
+</div><div>
+<img class="article-view-slider-thumbnail" src="https://www.carmag.co.za/wp-content/uploads/2025/01/triton-1-400x240.jpg"/>
+</div><div>
+<img class="article-view-slider-thumbnail" src="https://www.carmag.co.za/wp-content/uploads/2025/01/CAR-2-400x240.jpg"/>
+</div><div>
+<img class="article-view-slider-thumbnail" src="https://www.carmag.co.za/wp-content/uploads/2025/01/d-max-400x240.jpg"/>
+</div><div>
+<img class="article-view-slider-thumbnail" src="https://www.carmag.co.za/wp-content/uploads/2025/01/hilux-400x240.jpg"/>
+</div><div>
+<img class="article-view-slider-thumbnail" src="https://www.carmag.co.za/wp-content/uploads/2025/01/ranger-400x240.jpg"/>
+</div><div>
+<img class="article-view-slider-thumbnail" src="https://www.carmag.co.za/wp-content/uploads/2025/01/triton-400x240.jpg"/>
+</div><div>
+<img class="article-view-slider-thumbnail" src="https://www.carmag.co.za/wp-content/uploads/2025/01/triton-1-400x240.jpg"/>
+</div></div></div>
+</section>
+</div>
+<div>
+<div><a href="/category/new-models">New Models</a><div>▪ Posted <time title="Friday, January 17th, 2025, 7:20 am">January 17, 2025</time> </div><div>By: Charlen Raymond</div></div><div><div><div>
+<img alt="facebook sharing button" src="https://platform-cdn.sharethis.com/img/facebook.svg"/>
+</div><div>
+<img alt="twitter sharing button" src="https://platform-cdn.sharethis.com/img/twitter.svg"/>
+</div><div>
+<img alt="sharethis sharing button" src="https://platform-cdn.sharethis.com/img/sharethis.svg"/>
+</div><div>
+<img alt="linkedin sharing button" src="https://platform-cdn.sharethis.com/img/linkedin.svg"/>
+</div></div></div>
+<span>Ford</span>
+<div>
+<p><b><i>South Africans love bakkies, but what should they choose when the options are almost endless? We look at a few options under R700 000.</i></b></p>
+<figure><img alt="bakkies" class="lazy lazy-hidden size-full wp-image-999635213" data-lazy-sizes="(max-width: 600px) 100vw, 600px" data-lazy-src="https://www.carmag.co.za/wp-content/uploads/2025/01/CAR-2.jpg" data-lazy-srcset="https://www.carmag.co.za/wp-content/uploads/2025/01/CAR-2.jpg 600w, https://www.carmag.co.za/wp-content/uploads/2025/01/CAR-2-300x180.jpg 300w, https://www.carmag.co.za/wp-content/uploads/2025/01/CAR-2-400x240.jpg 400w" data-lazy-type="image" decoding="async" fetchpriority="high" height="1" src="" width="1"/><figcaption>Image: CAR</figcaption></figure>
+<p><a href="https://www.carmag.co.za/cars-for-sale/">Browse thousands of new and used vehicles here with CARmag!</a></p>
+<p>In case you didn’t know, South Africans love a good double cab bakkie! And for good reason. These vehicles are among the most versatile in the global car market, but they are particularly favoured in good ol’ Sunny SA. Simply because they tick all the boxes, and nearly every South African considering a bakkie as their next purchasing option will opt for (according to sales) the Toyota Hilux, Ford Ranger, and <a href="https://www.isuzu.co.za/">Isuzu</a> D-Max first. Then the rest.</p>
+<p>Below, we’re not doing a nitty-gritty, like-for-like comparison. Instead, we’re going to explore what each contender brings to the table. The pretenders: the Isuzu D-Max 1.9TD LS X-Rider 4×2 AT, Ford Ranger 2.0 SiT XLT 4×2 AT, Toyota Hilux 2.4 GD-6 Raider 4×2 AT, and the newly launched Mitsubishi Triton 2.4 GLS AT.</p>
+<figure><img alt="mitsubishi,triton" class="lazy lazy-hidden size-full wp-image-999635225" data-lazy-sizes="(max-width: 600px) 100vw, 600px" data-lazy-src="https://www.carmag.co.za/wp-content/uploads/2025/01/triton-1.jpg" data-lazy-srcset="https://www.carmag.co.za/wp-content/uploads/2025/01/triton-1.jpg 600w, https://www.carmag.co.za/wp-content/uploads/2025/01/triton-1-300x180.jpg 300w, https://www.carmag.co.za/wp-content/uploads/2025/01/triton-1-400x240.jpg 400w" data-lazy-type="image" decoding="async" height="1" src="" width="1"/><figcaption>2025 Mitsubishi Triton</figcaption></figure>
+<p><strong>Isuzu D-Max 1.9TD LS X-Rider 4×2 AT</strong></p>
+<p>Let’s be frank: the Isuzu D-Max has a reputation as a no-nonsense workhorse when it comes to bakkies, and the 1.9TD LS X-Rider proves it can also turn heads. The X-Rider, based on the LS derivative, is all about style, with black accents on the grille, side steps, and roll bar for an attention-grabbing look. The signature red “X-Rider” badging is hard to miss, and 18-inch alloy wheels round off the package nicely. Inside, the X-Rider boasts leather upholstery with red stitching, while the seven-inch touchscreen infotainment system allows for Apple CarPlay and Android Auto connectivity.</p>
+<p>Related: <a href="https://www.carmag.co.za/magazine-issues/review-isuzu-d-max-1-9-td-double-cab-x-rider-4x4-at/">Review: Isuzu D-Max 1.9 TD Double Cab X-Rider 4×4 AT</a></p>
+<p>The 1.9-litre turbodiesel engine delivers 110 kW and 350 N.m of torque. While it’s not the most powerful engine in the segment, it impresses with real-world fuel figures in the 10 L/100 km region. The engine is paired with a six-speed automatic transmission, but turbo lag is evident. Still, the bakkie can run comfortably at the national speed limit.</p>
+<ul>
+<li><strong>Price:</strong> R673 800</li>
+<li><strong>Service Plan:</strong> 5-year/90 000 km</li>
+<li><strong>Warranty:</strong> 5-year/120 000 km</li>
+</ul>
+<figure><img alt="isuzu,d-max,x-rider" class="lazy lazy-hidden size-full wp-image-999635221" data-lazy-sizes="(max-width: 600px) 100vw, 600px" data-lazy-src="https://www.carmag.co.za/wp-content/uploads/2025/01/d-max.jpg" data-lazy-srcset="https://www.carmag.co.za/wp-content/uploads/2025/01/d-max.jpg 600w, https://www.carmag.co.za/wp-content/uploads/2025/01/d-max-300x180.jpg 300w, https://www.carmag.co.za/wp-content/uploads/2025/01/d-max-400x240.jpg 400w" data-lazy-type="image" decoding="async" height="1" src="" width="1"/><figcaption>2025 Isuzu D-Max X-Rider</figcaption></figure>
+<h2><strong>Ford Ranger 2.0 SiT XLT 4×2 AT</strong></h2>
+<p>The Ford Ranger has long been a benchmark for bakkies in the double cab segment, underlined by it winning the 2023 South African Car of the Year competition – the first bakkie to do so! In XLT 2.0 SiT trim, the bakkie retains the modern design language of its stablemates, adding to the Ranger’s commanding on-road presence.</p>
+<p>Where the Ranger truly shines, though, is its tech-savvy nature. The 10.1-inch SYNC 4 infotainment system, found in more expensive models, is also at play in the XLT and comes with a raft of features that include over-the-air updates and seamless smartphone integration. There are also active and passive safety features, as well as keyless entry and -start, and automatic rain-sensing wipers.</p>
+<p>Related: <a href="https://www.carmag.co.za/magazine-issues/road-test-ford-ranger-2-0-bi-turbo-wildtrak-x-dc-4x4-10at/">Road Test: Ford Ranger 2.0 Bi-turbo Wildtrak X DC 4×4 10AT</a></p>
+<p>The 2.0-litre single-turbo diesel engine offers 125 kW and 405 N.m, making it punchier than the Isuzu while maintaining good fuel economy. Its six-speed auto gearbox is refined, and the ride comfort is truly exceptional, thanks to the Ranger’s superb suspension tuning.</p>
+<ul>
+<li><strong>Price:</strong> R648 600</li>
+<li><strong>Service Plan:</strong> Optional</li>
+<li><strong>Warranty:</strong> 4-year/120 000 km</li>
+</ul>
+<figure><img alt="ford,ranger" class="lazy lazy-hidden size-full wp-image-999635223" data-lazy-sizes="(max-width: 600px) 100vw, 600px" data-lazy-src="https://www.carmag.co.za/wp-content/uploads/2025/01/ranger.jpg" data-lazy-srcset="https://www.carmag.co.za/wp-content/uploads/2025/01/ranger.jpg 600w, https://www.carmag.co.za/wp-content/uploads/2025/01/ranger-300x180.jpg 300w, https://www.carmag.co.za/wp-content/uploads/2025/01/ranger-400x240.jpg 400w" data-lazy-type="image" decoding="async" height="1" loading="lazy" src="" width="1"/><figcaption>2025 Ford Ranger XLT</figcaption></figure>
+<h2><strong>Toyota Hilux 2.4 GD-6 Raider 4×2 AT</strong></h2>
+<p>The Hilux is a household name in South Africa and is synonymous with reliability and an impressive resale value when it comes to bakkies. The 2.4 GD-6 Raider builds on this reputation but without the asking price of the more yearned-for variants.</p>
+<p>Powered by a 2.4-litre turbodiesel engine producing 110 kW and 400 N.m, the Hilux balances performance with efficiency. While not the most powerful of bakkies in this company, its tried-and-tested reliability is its biggest drawcard. Paired with a 6-speed auto gearbox, it offers effortless cruising.</p>
+<p>Related: <a href="https://www.carmag.co.za/car-reviews/driving-impressions/dune-bashing-in-the-toyota-hilux-gr-s-iii/">Dune-Bashing in the Toyota Hilux GR-S III</a></p>
+<p>The Toyota Hilux’s legend is built on quality and it is evident throughout. And while it doesn’t feel as flashy as the Ford, it nails practicality.</p>
+<ul>
+<li><strong>Price:</strong> R633 200</li>
+<li><strong>Service Plan:</strong> 9-service/90 000 km</li>
+<li><strong>Warranty:</strong> 3-year/100 000 km</li>
+</ul>
+<figure><img alt="toyota,hilux," class="lazy lazy-hidden size-full wp-image-999635222" data-lazy-sizes="(max-width: 600px) 100vw, 600px" data-lazy-src="https://www.carmag.co.za/wp-content/uploads/2025/01/hilux.jpg" data-lazy-srcset="https://www.carmag.co.za/wp-content/uploads/2025/01/hilux.jpg 600w, https://www.carmag.co.za/wp-content/uploads/2025/01/hilux-300x180.jpg 300w, https://www.carmag.co.za/wp-content/uploads/2025/01/hilux-400x240.jpg 400w" data-lazy-type="image" decoding="async" height="1" loading="lazy" src="" width="1"/><figcaption>2025 Toyota Hilux Raider</figcaption></figure>
+<h2><strong>Mitsubishi Triton 2.4 GLS AT</strong></h2>
+<p>Not that it wanted to, the Mitsubishi Triton often flies under the radar in South Africa’s double-cab market. It is an impressive vehicle, but it deserves more attention, especially since an all-new model debuted locally in late 2024. The Triton’s interior is a big step-up from the previous generation, enhanced by features like leather seats, dual-zone climate control, and a touchscreen infotainment system.</p>
+<p>Related: <a href="https://www.carmag.co.za/car-reviews/review-mitsubishi-triton-2-4-gls-4x4-dc-at/">Review: Mitsubishi Triton 2.4 GLS 4×4 DC AT</a></p>
+<p>The Triton’s 2.4-litre turbodiesel engine produces 135 kW and 430 N.m, making it the most powerful in this group. The smooth 6-speed automatic transmission complements the engine’s performance well. The Triton has always excelled off-road, and even in 4×2 guise, it has decent ground clearance and a chassis that inspires confidence on almost any terrain.</p>
+<ul>
+<li><strong>Price:</strong> R679 990</li>
+<li><strong>Service Plan:</strong> 5-year/90 000 km</li>
+<li><strong>Warranty:</strong> 5-year/Unlimited km</li>
+</ul>
+<figure><img alt="mitsubishi,triton" class="lazy lazy-hidden size-full wp-image-999635224" data-lazy-sizes="(max-width: 600px) 100vw, 600px" data-lazy-src="https://www.carmag.co.za/wp-content/uploads/2025/01/triton.jpg" data-lazy-srcset="https://www.carmag.co.za/wp-content/uploads/2025/01/triton.jpg 600w, https://www.carmag.co.za/wp-content/uploads/2025/01/triton-300x180.jpg 300w, https://www.carmag.co.za/wp-content/uploads/2025/01/triton-400x240.jpg 400w" data-lazy-type="image" decoding="async" height="1" loading="lazy" src="" width="1"/><figcaption>2025 Mitsubishi Triton GLS</figcaption></figure>
+<p><a href="https://www.carmag.co.za/cars-for-sale/">Browse thousands of new and used vehicles here with CARmag!</a></p>
+</div>
+</div>
+</article>
+<span>Ford</span>
+<div>
+<section><div>
+<div><div><img alt="overlay-clever" height="1" id="clever-82537-1112142-cube-overlay" src="https://assets.cleverwebserver.com/Pixel.gif" style="width: 100%; height: 100%; z-index: 15; top: 0px; left: 0px; cursor: pointer; border: none; background-color: transparent; box-shadow: none; position: absolute; margin: 0px; padding: 0px;" width="1"/><img alt="close" id="clever-82537-1112142-cube-close" src="https://assets.cleverwebserver.com/Close.png" style="right: 2px; top: 0px; width: 22px; position: absolute; z-index: 15; height: 22px; margin: 0px; cursor: pointer;"/><a href="https://cleveradvertising.com"><img alt="Logo" id="clever-82537-1112142-cube-logo" src="https://assets.cleverwebserver.com/CleverLogo.ico" style="left: 2px; top: 0px; width: 22px; position: absolute; z-index: 15; height: 22px; margin: 0px;"/></a></div></div></div></section>
+</div>
+</div>
+</div>
+<div>
+<li> <div><div>X</div>
+<div><div>
+<h2>Find Your Ideal Car</h2>
+<div>
+<div>
+<div>
+<div>
+<span>Make, Model or Variant</span>
+</div>
+
+<div>
+<div>
+<a>Apply</a>
+<a>Reset</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<select>
+<option>Location</option>
+<option>Eastern Cape</option>
+<option>Free State</option>
+<option>Gauteng</option>
+<option>Kwazulu-Natal</option>
+<option>Limpopo</option>
+<option>Mpumalanga</option>
+<option>North West</option>
+<option>Northern Cape</option>
+<option>Western Cape</option>
+</select>
+</div>
+<div>
+<div>
+<select>
+<option>Min Price</option>
+<option>R50 000</option>
+<option>R100 000</option>
+<option>R200 000</option>
+<option>R250 000</option>
+<option>R300 000</option>
+<option>R400 000</option>
+<option>R500 000</option>
+<option>R600 000</option>
+<option>R700 000</option>
+<option>R800 000</option>
+<option>R900 000</option>
+<option>R1 000 000</option>
+<option>R1 250 000</option>
+<option>R1 500 000</option>
+<option>R1 750 000</option>
+</select>
+</div>
+<div>
+<select>
+<option>Max Price</option>
+<option>R50 000</option>
+<option>R100 000</option>
+<option>R200 000</option>
+<option>R250 000</option>
+<option>R300 000</option>
+<option>R400 000</option>
+<option>R500 000</option>
+<option>R600 000</option>
+<option>R700 000</option>
+<option>R800 000</option>
+<option>R900 000</option>
+<option>R1 000 000</option>
+<option>R1 250 000</option>
+<option>R1 500 000</option>
+<option>R1 750 000</option>
+</select>
+</div>
+</div>
+<div>
+<a>Search <span>27 446</span> Cars</a>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li> <div>
+<div>
+<div><img alt="Locate Dealer" decoding="async" height="24" src="https://www.carmag.co.za/wp-content/themes/CarMag_Revamp/images/carmag-locate-dealer.png" width="191"/></div>
+<h3>Find Your Nearest <span>Dealer</span></h3>
+<div>
+<select>
+<option>Location</option>
+<option>Eastern Cape</option>
+<option>Free State</option>
+<option>Gauteng</option>
+<option>Kwazulu Natal</option>
+<option>Limpopo</option>
+<option>Mpumalanga</option>
+<option>Northern Cape</option>
+<option>North West</option>
+<option>Western Cape</option>
+</select>
+</div>
+<a href="/car-dealerships/">
+<span>Search 360 Dealers</span>
+</a>
+</div>
+</div>
+</li>
+<li> <div>
+<div>
+<img alt="Car Compare" decoding="async" height="24" src="https://www.carmag.co.za/wp-content/themes/CarMag_Revamp/images/carmag-car-compare.png" width="191"/>
+<h3>Car Compare</h3>
+<span>Choose two or more cars to compare side-by-side.</span>
+<a href="/compare-cars"><div>Start Comparing</div></a>
+</div>
+</div>
+</li>
+
+
+
+
+</div>
+
+<div>
+<h5>Related Articles</h5>
+</div>
+<div>
+<div>
+<div>
+<div>
+<a href="https://www.carmag.co.za/news/new-models/alpina-celebrates-60-years-with-sleek-b8-gt/">
+<img alt="B8 GT" class="lazy lazy-hidden attachment-car-thumbnail size-car-thumbnail wp-post-image" data-lazy-sizes="(max-width: 400px) 100vw, 400px" data-lazy-src="https://www.carmag.co.za/wp-content/uploads/2025/01/ALPINA-B8-GT-14-400x240.jpeg" data-lazy-srcset="https://www.carmag.co.za/wp-content/uploads/2025/01/ALPINA-B8-GT-14-400x240.jpeg 400w, https://www.carmag.co.za/wp-content/uploads/2025/01/ALPINA-B8-GT-14-300x180.jpeg 300w, https://www.carmag.co.za/wp-content/uploads/2025/01/ALPINA-B8-GT-14-1024x614.jpeg 1024w, https://www.carmag.co.za/wp-content/uploads/2025/01/ALPINA-B8-GT-14-768x461.jpeg 768w, https://www.carmag.co.za/wp-content/uploads/2025/01/ALPINA-B8-GT-14-832x499.jpeg 832w, https://www.carmag.co.za/wp-content/uploads/2025/01/ALPINA-B8-GT-14-800x480.jpeg 800w, https://www.carmag.co.za/wp-content/uploads/2025/01/ALPINA-B8-GT-14-999x599.jpeg 999w, https://www.carmag.co.za/wp-content/uploads/2025/01/ALPINA-B8-GT-14.jpeg 1200w" data-lazy-type="image" decoding="async" height="1" loading="lazy" src="" width="1"/>
+</a>
+<h4><a href="https://www.carmag.co.za/news/new-models/alpina-celebrates-60-years-with-sleek-b8-gt/">Alpina Celebrates 60 Years With Sleek B8 GT</a></h4>
+</div>
+</div>
+<div>
+<div>
+<a href="https://www.carmag.co.za/news/new-models/all-electric-toyota-urban-cruiser-unveiled/">
+<img alt="Toyota Urban Cruiser EV" class="lazy lazy-hidden attachment-car-thumbnail size-car-thumbnail wp-post-image" data-lazy-sizes="(max-width: 400px) 100vw, 400px" data-lazy-src="https://www.carmag.co.za/wp-content/uploads/2025/01/1-10-400x240.jpg" data-lazy-srcset="https://www.carmag.co.za/wp-content/uploads/2025/01/1-10-400x240.jpg 400w, https://www.carmag.co.za/wp-content/uploads/2025/01/1-10-300x180.jpg 300w, https://www.carmag.co.za/wp-content/uploads/2025/01/1-10-1024x614.jpg 1024w, https://www.carmag.co.za/wp-content/uploads/2025/01/1-10-768x461.jpg 768w, https://www.carmag.co.za/wp-content/uploads/2025/01/1-10-832x499.jpg 832w, https://www.carmag.co.za/wp-content/uploads/2025/01/1-10-800x480.jpg 800w, https://www.carmag.co.za/wp-content/uploads/2025/01/1-10-999x599.jpg 999w, https://www.carmag.co.za/wp-content/uploads/2025/01/1-10.jpg 1200w" data-lazy-type="image" decoding="async" height="1" loading="lazy" src="" width="1"/>
+</a>
+<h4><a href="https://www.carmag.co.za/news/new-models/all-electric-toyota-urban-cruiser-unveiled/">All-Electric Toyota Urban Cruiser Unveiled</a></h4>
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+<div>
+<div>
+<div>
+<span>Subscribe Today</span>
+<form>
+<div>
+<label>Newsletter </label>
+</div>
+<div>
+<label>Promotional Mailer </label>
+</div>
+
+</form>
+</div>
+<div>
+<ul>
+<li>
+<a href="https://www.youtube.com/c/CARSouthAfrica"></a>
+</li>
+<li>
+<a href="https://www.facebook.com/CARmagazineSA"></a>
+</li>
+<li>
+<a href="https://www.instagram.com/carmagazineSA/"></a>
+</li>
+<li>
+<a href="https://twitter.com/CARmagSA"></a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div>
+<div>
+<section><h3>Carmag</h3> <div><ul>
+<li><a href="https://www.carmag.co.za/contact-us/">Contact us</a></li>
+<li><a href="https://www.carmag.co.za/advertise-with-us/">Advertise with us</a></li>
+<li><a href="https://www.carmag.co.za/privacy-policy/">Privacy Policy</a></li>
+<li><a href="https://www.carmag.co.za/terms-and-conditions/">Terms and Conditions</a></li>
+<li><a href="https://www.carmag.co.za/competition-rules-2/">Competition Rules</a></li>
+<li><a href="https://www.carmag.co.za/privacy-policy/#cookies">We use cookies</a></li>
+</ul>
+</div>
+</section><section><h3>Reviews</h3> <div><ul>
+<li><a href="/car-reviews/road-tests/">Road Tests</a></li>
+<li><a href="https://www.carmag.co.za/advertise-with-us/">Driving Impressions</a></li>
+</ul>
+</div>
+</section><section><h3>Buy a Car</h3> <div><ul>
+<li><a href="/cars-for-sale/new/">New Cars for Sale</a></li>
+<li><a href="/cars-for-sale/used/">Used Cars For Sale</a></li>
+<li><a href="/cars-for-sale/demo/">Demo Cars for Sale</a></li>
+<li><a href="/cars-for-sale/cheap-cars/">Cheap Cars for Sale</a></li>
+<li><a href="/elite-cars/">Elite Cars</a></li>
+</ul>
+</div>
+</section><section><h3>News</h3> <div><ul>
+<li><a href="/news/">News</a></li>
+<li><a href="/news/new-models/">New Models</a></li>
+<li><a href="/news/industry-news/">Industry News</a></li>
+<li><a href="/speed/">Speed</a></li>
+<li><a href="/news/rumours/">Rumours</a></li>
+</ul>
+</div>
+</section><section><h3>Videos</h3> <div><ul>
+<li><a href="/videos/dashcams/">Dashcams</a></li>
+</ul>
+</div>
+</section><section><h3>Powered By</h3> <div><p><img alt="HabariMedia" class="lazy lazy-hidden" data-lazy-src="https://www.carmag.co.za/wp-content/uploads/2023/07/habari-footer-logo-2.png" data-lazy-type="image" decoding="async" height="1" loading="lazy" src="" width="1"/></p>
+</div>
+</section>
+</div>
+</div>
+<div>
+<div>
+<div><strong>CAPE TOWN OFFICE: </strong> 36 Old Mill Road, Ndabeni, Maitland, 7405, Western Cape &gt; Telephone: (021) 530 3300 &gt; Fax: (021) 530 3333</div>
+<div>© Copyright 2025 CarMag</div>
+</div>
+</div>
+<nav>
+<div>
+<h3>Secondary Menu</h3>
+<div><ul><li><a href="/news/" title="latest cars and automotive news south africa">News</a>
+<ul>
+<li><a href="/news/new-models/" title="Latest new models cars">New models</a></li>
+<li><a href="/news/industry-news/" title="Car Industry news and updates">Industry news</a></li>
+<li><a href="/speed/">Speed</a></li>
+<li><a href="/news/rumours/" title="Latest car news and rumours ">Rumours</a></li>
+<li><a href="/videos/" title="Latest cars and motoring videos">Videos</a></li>
+<li><a href="https://www.joburgetc.com/news/" title="News in Johannesburg">News in Johannesburg</a></li>
+<li><a href="https://www.capetownetc.com/">News in Cape Town</a></li>
+<li><a href="https://www.africaninsider.com/">News in Africa</a></li>
+</ul>
+</li>
+<li><a href="https://www.carmag.co.za/car-reviews/" title="Car Reviews South Africa">Reviews</a>
+<ul>
+<li><a href="/car-reviews/road-tests/" title="Car Road tests and reviews">Road tests</a></li>
+<li><a href="/car-reviews/driving-impressions/" title="Car Driving impressions">Driving impressions</a></li>
+<li><a href="/news/buying-used-cars/" title="Tips for buying used cars">Buying used cars</a></li>
+</ul>
+</li>
+<li><a href="/cars-for-sale/" title="Cars for Sale in South Africa">Buy a Car</a>
+<ul>
+<li><a href="/cars-for-sale/new/" title="New Cars For Sale">New Cars For Sale</a></li>
+<li><a href="/cars-for-sale/cheap-cars/" title="Cheap Cars For Sale">Cheap Cars For Sale</a></li>
+<li><a href="/cars-for-sale/used/" title="Used Cars For Sale">Used Cars For Sale</a></li>
+<li><a href="/cars-for-sale/demo/" title="Demo Cars For Sale">Demo Cars For Sale</a></li>
+<li><a href="https://www.carmag.co.za/bakkies-for-sale/">Bakkies For Sale</a></li>
+<li><a href="https://www.carmag.co.za/bikes-for-sale/">Bikes For Sale</a></li>
+<li><a href="https://www.carmag.co.za/elite-cars/">Elite Cars</a></li>
+<li><a href="/news/cheapest-suvs-in-south-africa/">SUVs Under R300 000</a></li>
+<li><a href="/news/electric-cars-south-africa/">Electric Cars South Africa</a></li>
+</ul>
+</li>
+<li><a href="https://www.carmag.co.za/4x4-news-leisure-wheels" title="Leisure Wheels">Leisure Wheels</a></li>
+<li><a href="#">Tools</a>
+<ul>
+<li><a href="https://www.carmag.co.za/car-valuation-report/">Car Valuation</a></li>
+<li><a href="https://www.carmag.co.za/car-insurance/">Car Insurance Quote</a></li>
+<li><a href="/sell-your-car">Sell your car</a></li>
+<li><a href="/compare-cars/">Compare Cars</a></li>
+<li><a href="/car-dealerships/">Locate Dealer</a></li>
+<li><a href="https://www.carmag.co.za/news/industry-news/natis-online-booking/">Natis Online Booking</a></li>
+<li><a href="https://www.carmag.co.za/car-dealer/">Car Dealer</a></li>
+</ul>
+</li>
+<li><a href="https://www.carmag.co.za/car-price-guide/">Price Guide</a></li>
+<li><a href="/marketplace-listing/">Parts &amp; Accessories</a></li>
+</ul></div>
+</div>
+</nav>
+</div>
+<footer>
+<div>
+<div>
+<p>Copyright © 2025 <a href="https://www.carmag.co.za" title="CAR Magazine"><span>CAR Magazine</span></a>.</p>
+<p>Powered by <a href="http://wordpress.org" title="State-of-the-art semantic personal publishing platform"><span>WordPress</span></a> and <a href="" title="CarmagRevamp WordPress Theme"><span>CarmagRevamp</span></a>. <a href="#container">Back to Top</a></p> </div>
+</div>
+</footer>
+</div>
+<div>
+<button>X</button>
+</div>
+ <div>
+<div>
+<div>
+<div><img alt="" height="0" src="https://highburyads.co.za/www/delivery/lg.php?bannerid=6314&amp;campaignid=4085&amp;zoneid=1599&amp;loc=https%3A%2F%2Fwww.carmag.co.za%2Fnews%2Fnew-models%2Fbattle-of-the-sub-r700k-double-cabs-bakkies%2F&amp;cb=7c773fea95" style="width: 0px; height: 0px;" width="0"/></div>
+</div>
+<span>×</span>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+<div>
+<button>X</button>
+
+</div>
+
+
+<div>
+<div>
+<span>x</span>
+    You've decided not to share your location via browser auto detection.You can also enter your location here.
+    <form>
+<div>Submit</div>
+<span>Please enter a location</span>
+</form>
+</div>
+</div>
+<div>
+<div>
+    [formbuilder:3]
+  </div>
+</div>
